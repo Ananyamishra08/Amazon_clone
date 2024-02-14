@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-logo border">
+            <div class="logo">
+                <!-- <a href="https://www.amazon.com/ref=nav_logo"></a> -->
+            </div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-1">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-2">India</p>
+                </div>
+            </div>
+            <div class="nav-search" type="Search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <button><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="flag border">
+                <div class="flag-icon"></div>
+                <div class="country">EN</div>
+                <select class="arrow">
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="nav-signin border">
+                <p><span class="sign-txt">Hello,Sign in</span></p>
+                <p class="nav-second">Accounts & Lists
+                <select class="arrow">
+                    <option value=""></option>
+                </select></p>
+            </p>
+            </div>
+            <div class="nav-return border">
+                <p><span class="sign-txt">Returns</span></p>
+                <p class="nav-second">& Order</p>
+            </div>
+            <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </nav>
+        <!-- BODY -->
+        <div class="panel">
+            <div class="all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deal</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+        </div>
+    </header>
+    <main>
+       <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="https://www.amazon.in/" class="underline"> Click here to go to amazon.in</a></p>
+        </div>
+       </div>
+       <div class="shop-sec">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box1_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img" style=" background-image: url('box2_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img" style=" background-image: url('box3_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box4_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box4_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+            <div class="box5 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box5_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+
+            <div class="box6 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box6_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+
+            <div class="box7 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box7_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div>
+
+            <!-- <div class="box8 box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                <div class="box-img"  style=" background-image: url('box8_image.jpg');"></div>
+                <p class="underline">See more</p>
+                </div>
+            </div> -->
+       </div>
+    </main>
+  <footer>
+    <div class="foot-panel1">
+        Back to top
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            Get to Know Us
+            Careers
+Blog
+About Amazon
+Investor Relations
+Amazon Devices
+Amazon Science
+        </ul>
+    </div>
+  </footer>
+</body>
+</html>
